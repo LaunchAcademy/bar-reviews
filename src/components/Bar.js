@@ -1,5 +1,6 @@
-import React from 'react';
-import Review from './Review';
+import React from 'react'
+import Review from './Review'
+import '../styles/Bar.css'
 
 const Bar = ({ id, averageRating, name, reviews }) => {
   let barReviews = reviews.map(review => {

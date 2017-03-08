@@ -10,11 +10,11 @@ class BarsContainer extends Component {
   }
 
   componentDidMount() {
-    fetch('/api/v1/bars.json')
-      .then((response) => response.json())
-      .then((responseData) => {
-        this.setState({bars: responseData})
-      })
+    fetch('/api/v1/bars')
+    .then((response) => response.json())
+    .then((json) => {
+      this.setState({bars: json})
+    })
   }
 
   render() {
@@ -31,7 +31,7 @@ class BarsContainer extends Component {
       )
     })
     return(
-      <div className="bars">
+      <div className="bars-container">
         <h2> I am the Bars Index Container </h2>
         {bars}
         {this.props.children}

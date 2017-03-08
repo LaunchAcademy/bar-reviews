@@ -1,4 +1,5 @@
 import React from 'react';
+import '../styles/Review.css'
 
 const Review = ({ rating, body, onClick }) => {
   return(

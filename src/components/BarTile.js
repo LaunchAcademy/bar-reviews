@@ -1,6 +1,5 @@
-import React from 'react';
-import Review from './Review';
-import { Link } from 'react-router';
+import React from 'react'
+import { Link } from 'react-router'
 
 
 const BarTile = ({ id, name, address, hours_of_operation, cover_charge }) => {
