@@ -30,6 +30,7 @@ class BarsContainer extends Component {
         />
       )
     })
+    
     return(
       <div className="bars-container">
         <h2> I am the Bars Index Container </h2>

@@ -21,6 +21,7 @@ class BarContainer extends Component {
       this.setState({data: json})
     })
   }
+  
   render() {
     return(
       <div className="bars-container">
