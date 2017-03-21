@@ -1,9 +1,9 @@
 import React from 'react'
 import { render } from 'react-dom'
 import { browserHistory, Route, Router, IndexRoute } from 'react-router';
-import Layout from './Layout'
-import BarsContainer from '../containers/BarsContainer'
-import BarContainer from '../containers/BarContainer'
+import Layout from './components/Layout'
+import BarContainer from './containers/BarContainer'
+import BarsContainer from './containers/BarsContainer'
 import './styles/index.css'
 
 render((
