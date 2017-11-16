@@ -19,7 +19,7 @@ In another terminal...
 
 ```no-highlight
 $ bundle
-$ rails server.rb
+$ ruby server.rb
 ```
 
 ## Info
